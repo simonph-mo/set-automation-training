@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <STEP-ProductInformation xmlns="http://www.stibosystems.com/step">
+    <Entities>
+      <Entity ID="ENT_PricingPeriod-861788" ParentID="ENT_VehiclePricingPeriodRoot" UserTypeID="ENT_PricingPeriod">
+        <Name>20Q3</Name>
+        <Values>
+          <Value AttributeID="ATT_StartDate">2020-07-01</Value>
+          <Value AttributeID="ATT_EndDate">2020-09-30</Value>
+          <Value AttributeID="ATT_PricingPeriodID">562</Value>
+          <Value AttributeID="ATT_PeriodKey">20Q3</Value>
+        </Values>
+      </Entity>
+    </Entities>
+    <Products>
+      <Product ID="PTH_PricingData_1457104" ParentID="PTH_VTN_315194" UserTypeID="PTH_PricingData">
+        <EntityCrossReference EntityID="ENT_PricingPeriod-861788" Type="REF_PricingPeriod"/>
+        <Values>
+          <Value AttributeID="ATT_SmrOther">738.984201258783</Value>
+          <Value AttributeID="ATT_WeeklyRental">0.00</Value>
+          <Value AttributeID="ATT_PIP_AP">0.00</Value>
+          <Value AttributeID="ATT_AP">0.00</Value>
+          <Value AttributeID="ATT_AlfaProposal"/>
+          <Value AttributeID="ATT_PIP_WeeklyRental">0.00</Value>
+          <Value AttributeID="ATT_PIP_ProfileType">Financial Lease</Value>
+          <Value AttributeID="ATT_PIP_Profit">0.00</Value>
+          <Value AttributeID="ATT_WltpCo2Combined">154</Value>
+          <Value AttributeID="ATT_SmrTyres">149.3180565596045</Value>
+          <Value AttributeID="ATT_DisposalCosts">160.29</Value>
+          <Value AttributeID="ATT_BasicPrice">16475.00</Value>
+          <Value AttributeID="ATT_LeaseLength">36</Value>
+          <Value AttributeID="ATT_Profit">452.05</Value>
+          <Value AttributeID="ATT_IterationCorrelationIDSent">aa04fe4c-6155-4a9e-995a-c4b057b0f5e6</Value>
+          <Value AttributeID="ATT_Model">QASHQAI</Value>
+          <Value AttributeID="ATT_co2">122</Value>
+          <Value AttributeID="ATT_AlfaProcessingMethod">Evaluate</Value>
+          <Value AttributeID="ATT_WLTP_CO2Weighted_Comb_PHEV">130</Value>
+          <Value AttributeID="ATT_RV">8500</Value>
+          <Value AttributeID="ATT_ProfileType">Financial Lease</Value>
+          <Value AttributeID="ATT_Make">NISSAN</Value>
+          <Value AttributeID="ATT_DiscountOutput">2306.99</Value>
+          <Value AttributeID="ATT_PDSMiscAmount">0.00</Value>
+          <Value AttributeID="ATT_VTN_ID">710500</Value>
+          <Value AttributeID="ATT_Fuel_Type">Petrol</Value>
+          <Value AttributeID="ATT_AwardType">PIP</Value>
+          <Value AttributeID="ATT_SubsidyOutput">1565.63</Value>
+          <Value AttributeID="ATT_GovernmentGrant">0</Value>
+          <Value AttributeID="ATT_OptionCost">20</Value>
+          <Value AttributeID="ATT_VehicleType">CAR</Value>
+          <Value AttributeID="ATT_CalcType">Profit</Value>
+          <Value AttributeID="ATT_InsuranceCost">2265.31</Value>
+          <Value AttributeID="ATT_ParentID">A_Parent_ID</Value>
+        </Values>
+      </Product>
+    </Products>
+  </STEP-ProductInformation>

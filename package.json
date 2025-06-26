@@ -1,0 +1,22 @@
+{
+  "name": "simonph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.10.0"
+  },
+  "dependencies": {
+    "@mo/qe-logger": "^1.2.9",
+    "@mo/qe-vehicle-catalogue-api": "^0.0.6",
+    "chalk": "^4.1.2",
+    "diff-js-xml": "^1.0.8",
+    "fast-xml-parser": "^4.5.2"
+  }
+}
