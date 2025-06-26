@@ -1,7 +1,7 @@
 import { test } from '../../fixtures';
 import { expect } from '@playwright/test';
 
-test('Enter information in Text Boxes', async ({ textBoxPage, fullName, email, currentAddress, permanentAddress }) => {
+test('Enter information in Text Box', async ({ textBoxPage, fullName, email, currentAddress, permanentAddress }) => {
   await textBoxPage.submitTextBoxInformation(fullName, email, currentAddress, permanentAddress);
 
   console.log(`Full Name: ${fullName}\nEmail: ${email}\nCurrent Address: ${currentAddress}\nPermanent Address: ${permanentAddress}`);
